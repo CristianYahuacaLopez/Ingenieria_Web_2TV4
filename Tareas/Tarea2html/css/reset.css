@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+ 
+/* Ajustes básicos del documento */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+ 
+body {
+  font-family: sans-serif;
+  background-color: #fff; /*Color del fondo*/
+  color: #000;/*Color del texto*/
+}
+ 
+ul,
+ol {
+  list-style: none;
+}
+ 
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+ 
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+ 
+/* Elimina estilos por defecto en botones e inputs */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+ 
+/* Evita que textarea cambie tamaño sin control */
+textarea {
+  resize: none;
+}
+ 
+/* Corrige comportamiento de tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
